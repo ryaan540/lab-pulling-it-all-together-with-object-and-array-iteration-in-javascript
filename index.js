@@ -246,3 +246,18 @@ function doesLongNameStealATon() {
 
     return mostSteals > 10; 
 }
+
+// Export for Jest tests
+module.exports = {
+  numPointsScored,
+  shoeSize,
+  teamColors,
+  teamNames,
+  playerNumbers,
+  playerStats,
+  bigShoeRebounds,
+  mostPointsScored,
+  winningTeam,
+  playerWithLongestName,
+  doesLongNameStealATon
+};
